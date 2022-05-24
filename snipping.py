@@ -8,8 +8,6 @@ import numpy as np
 import cv2
 class SNIP():
     def __init__(self,path):
-        import cv2
-        import numpy as np 
         self.s_x=0
         self.s_y=0
         self.e_x=0 
